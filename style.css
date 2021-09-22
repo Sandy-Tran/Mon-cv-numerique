@@ -9,7 +9,6 @@
 }
 
 body, html{
-    margin-top: 40px;
     padding: 0;
     width: 100%;
     box-sizing: border-box;
@@ -48,10 +47,14 @@ p{
 }
 
 
+#mail{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
 
 
-
-/* ******************** NAV BAR ******************** */
+/* ******************** NAV BAR ********************
 .topnav {
   background-color: #FFFFFA;
   display: flex;
@@ -80,37 +83,33 @@ p{
   color: #080705;
 }
 
-#mail{
-  height: 30px;
-  width: 30px;
-  margin-left: 10px;
-}
 
-/* hide responsive menu */
+
+hide responsive menu
 #topnav_hamburger_icon,
 #topnav_responsive_menu {
   display: none;
 }
 
 @media only screen and (max-width: 992px) {
-  /* hide classic menu */
+  hide classic menu
   #topnav_menu {
     display: none;
   }
 
-  /* position home link at left and hamburger at right */
+  position home link at left and hamburger at right
   #home_link {
     flex-grow: 1;
   }
 
-  /* disable horizontal scrolling  */
+  disable horizontal scrolling 
   #root {
     position: relative;
     overflow-x: hidden;
 
   }
 
-  /* show responsive menu and position at the right of the screen */
+  show responsive menu and position at the right of the screen
   #topnav_responsive_menu {
     display: block;
     position: absolute;
@@ -158,14 +157,14 @@ p{
     text-decoration: none;
   }
 
-  /* And let's slide it in from the right */
+  And let's slide it in from the right
   #topnav_responsive_menu.open {
     transform: none;
     position: fixed;
   }
 
-  /* ******************** HAMBURGER ICON ******************** */
-  /* define size and position of the hamburger link */
+  ******************** HAMBURGER ICON ********************
+  define size and position of the hamburger link
   #topnav_hamburger_icon {
     display: block;
     position: relative;
@@ -180,7 +179,7 @@ p{
     cursor: pointer;
   }
 
-  /* define the style (size, color, position, animation, ...) of the 3 spans */
+  define the style (size, color, position, animation, ...) of the 3 spans
   #topnav_hamburger_icon span {
     display: block;
     position: absolute;
@@ -206,7 +205,7 @@ p{
     transition: 0.25s ease-in-out;
   }
 
-  /* set the 3 spans position to look like a hamburger */
+  set the 3 spans position to look like a hamburger
   #topnav_hamburger_icon span:nth-child(1) {
     top: 0px;
     -webkit-transform-origin: left top;
@@ -229,12 +228,12 @@ p{
     transform-origin: left bottom;
   }
 
-  /* change color when opening the menu */
+  change color when opening the menu
   #topnav_hamburger_icon.open span {
     background: #080705;
   }
 
-  /* the first span rotates 45° \ */
+  the first span rotates 45° \
   #topnav_hamburger_icon.open span:nth-child(1) {
     width: 110%;
     -webkit-transform: rotate(45deg);
@@ -243,13 +242,13 @@ p{
     transform: rotate(45deg);
   }
 
-  /* the second span disappears */
+  the second span disappears
   #topnav_hamburger_icon.open span:nth-child(2) {
     width: 0%;
     opacity: 0;
   }
 
-  /* the last span rotates -45° / */
+  the last span rotates -45° /
   #topnav_hamburger_icon.open span:nth-child(3) {
     width: 110%;
     -webkit-transform: rotate(-45deg);
@@ -258,10 +257,10 @@ p{
     transform: rotate(-45deg);
   }
 }
+ */
 
 
-
-/* .topnav {
+.topnav {
   background-color: #FFFFFA;
   overflow: hidden;
   position: sticky;
@@ -318,7 +317,7 @@ p{
   .navbar .icon{
     display: none;
   }
- */
+
 
 /* presentation */
 #home{
@@ -527,7 +526,7 @@ footer{
 
   
 
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   .topnav a{display: none;}
   .topnav a.icon {
     float: right;
@@ -547,7 +546,7 @@ footer{
     display: block;
     text-align: center;
   }
-} */
+}
 
 
 

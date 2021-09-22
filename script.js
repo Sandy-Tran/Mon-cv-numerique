@@ -1,34 +1,37 @@
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-// function myNavbar() {
-//   let x = document.getElementById("myTopnav");
-//   if (x.className === "topnav") {
-//     x.className += " responsive";
-//   }else {
-//     x.className = "topnav";
+
+// function showResponsiveMenu() {
+//   var menu = document.getElementById("topnav_responsive_menu");
+//   var icon = document.getElementById("topnav_hamburger_icon");
+//   var root = document.getElementById("root");
+//   if (menu.className === "") {
+//     menu.className = "open";
+//     icon.className = "open";
+//     root.style.overflowY = "hidden";
+//   } else {
+//     menu.className = "";                    
+//     icon.className = "";
+//     root.style.overflowY = "";
 //   }
 // }
 
-// let linkNav = document.getElementsByClassName("link");
-
-// linkNav.addEventListener("click", () => {
-//   let nav = document.getElementsById("myTopnav");
-//   nav = nav.classList.remove(" responsive");
-// })
-
-
-function showResponsiveMenu() {
-  var menu = document.getElementById("topnav_responsive_menu");
-  var icon = document.getElementById("topnav_hamburger_icon");
-  var root = document.getElementById("root");
-  if (menu.className === "") {
-    menu.className = "open";
-    icon.className = "open";
-    root.style.overflowY = "hidden";
-  } else {
-    menu.className = "";                    
-    icon.className = "";
-    root.style.overflowY = "";
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function myNavbar() {
+  let x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.classList.add("responsive");
+  }else {
+    x.classList.remove("responsive");
   }
+  
+}
+
+let linkNav = document.querySelectorAll(".link");
+
+for (let i = 0; i < linkNav.length; i++){
+  linkNav[i].addEventListener("click", function(){
+    let nav = document.getElementById("myTopnav");
+      nav.classList.remove("responsive");
+  })
 }
 
 
