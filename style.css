@@ -334,7 +334,7 @@ hide responsive menu
     padding-left: 30px;
     padding-right: 30px;
     font-family: "MontserratLight";
-    font-size: 1em;
+    font-size: 1.5em;
     color: #FFFFFA;
 }
 
@@ -524,7 +524,12 @@ footer{
   color: #FFFFFA;
 }
 
-  
+
+@media screen and (max-width: 1200px) {
+  .presentation p{
+    font-size: 1em;
+  }
+}
 
 @media screen and (max-width: 992px) {
   .topnav a{display: none;}
