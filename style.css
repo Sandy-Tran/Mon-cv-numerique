@@ -539,7 +539,7 @@ footer{
   .presentation p{
     text-align: left;
   }
-  #experiences ul{
+  #experiences li{
     text-align: left;
   }
   .topnav a{display: none;}
