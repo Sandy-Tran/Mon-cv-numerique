@@ -273,7 +273,7 @@ hide responsive menu
   font-family: "Bebasneue";
   float: left;
   display: block;
-  color: #080705;
+  color: #212529;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -283,7 +283,7 @@ hide responsive menu
 
 .topnav a:hover {
   text-decoration: line-through;
-  color: #080705;
+  color: #212529;
 }
 
 
@@ -301,7 +301,7 @@ hide responsive menu
   .navbar a{
     font-family: "Bebasneue";
     font-size: 2em;
-    color: #080705;
+    color: #212529;
     display: block;
     text-align: center;
     text-decoration: none;
@@ -311,7 +311,7 @@ hide responsive menu
 
   .navbar a:hover{
     text-decoration: line-through;
-    color: #080705;
+    color: #212529;
   }
 
   .navbar .icon{
@@ -321,11 +321,16 @@ hide responsive menu
 
 /* presentation */
 #home{
-    background-color: #74180E; 
+    /* background-color: #74180E;  */
+    background-color: #1b1b66;
     scroll-margin-top: 6em;
     padding-top: 40px;
     padding-bottom: 40px;
 
+}
+
+.name{
+  color: #F4BDC6;
 }
 
 
@@ -349,7 +354,7 @@ hide responsive menu
 #competences{
     padding: 60px;
     text-align: center;
-    background-color: #DB9164;
+    background-color: #80A1D4;
     scroll-margin-top: 3em;
 
 }
@@ -386,15 +391,12 @@ hide responsive menu
 
 /* portfolio */
 #portfolio{
-    background-color: #080705;
+    background-color: #F4BDC6;
     text-align: center;
     padding: 60px;
     scroll-margin-top: 3em;
 }
 
-#portfolio h2{
-    color: #FFFFFA;
-}
 
 .container {
     position: relative;
@@ -476,7 +478,7 @@ hide responsive menu
   
   /* formation */
   #formation{
-    background-color: #DB9164;
+    background-color: #80A1D4;
     text-align: center;
     padding: 60px;
     scroll-margin-top: 3em;
@@ -485,7 +487,8 @@ hide responsive menu
 
   /* XP */
   #experiences{
-    background-color: #74180E;
+    background-color: #1b1b66;
+    font-family: "MontserratLight";
     text-align: justify;
     padding: 60px;
     scroll-margin-top: 3em;
@@ -494,6 +497,7 @@ hide responsive menu
 #experiences h2{
   text-align: center;
 }
+
 .trait {
 	   	 background			  : transparent;
 		   border-color			  : #FFFFFA;
@@ -514,7 +518,7 @@ footer{
   align-items: center;
   justify-content: center;
   height: 90px;
-  background-color: #080705;
+  background-color: #212529;
 }
 .icones a{
   padding: 10px;
@@ -532,6 +536,12 @@ footer{
 }
 
 @media screen and (max-width: 992px) {
+  .presentation p{
+    text-align: left;
+  }
+  #experiences p{
+    text-align: left;
+  }
   .topnav a{display: none;}
   .topnav a.icon {
     float: right;
@@ -562,9 +572,9 @@ footer{
     align-items: stretch;
   }
   .grid h4{
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
-    color: #74180E;
+    color: #80A1D4;
   }
 
   
