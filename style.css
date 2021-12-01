@@ -584,7 +584,6 @@ footer{
   .grid {
     display: flex;
     flex-direction: column;
-    align-items: stretch;
   }
   .grid h4{
     font-size: 1.2em;
