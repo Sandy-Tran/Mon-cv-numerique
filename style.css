@@ -391,19 +391,18 @@ hide responsive menu
 
 /* portfolio */
 #portfolio{
-    background-color: #F4BDC6;
     text-align: center;
     padding: 60px;
     scroll-margin-top: 3em;
 }
 
 
-.container {
+.container{
     position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1100px;
+    max-width: 1200px;
   }
   .container .card {
     position: relative;
@@ -411,6 +410,7 @@ hide responsive menu
     height: 320px;
     margin: 15px;
     overflow: hidden;
+    border: #F3BDC6 solid 3px;
   }
   
   .imgBx, .contentBx {
