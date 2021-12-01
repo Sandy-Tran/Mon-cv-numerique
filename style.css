@@ -473,6 +473,21 @@ hide responsive menu
     font-size: 1.3em;
     text-transform: uppercase;
   }
+
+  .site{
+    color: black;
+  }
+
+  .site:hover{
+    color: #F3BDC6;
+    text-decoration: none; 
+  }
+
+  .content > h3{
+    font-family: "MontserratLight";
+    font-weight: 900;
+    color: #1b1b66;
+  }
 /* fin portfolio */
 
   
